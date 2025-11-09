@@ -1,0 +1,1 @@
+Select_bargain_store_page_singlever
