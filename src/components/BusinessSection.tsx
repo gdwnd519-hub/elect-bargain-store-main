@@ -56,7 +56,7 @@ export default function BusinessSection() {
           >
             <div className="relative h-[600px] rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/images/packing.jpg"
                 alt="Team working"
                 className="absolute inset-0 w-full h-full object-cover"
               />
