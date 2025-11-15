@@ -25,15 +25,11 @@ export async function submitContactInquiry(inquiry: ContactInquiry) {
     throw new Error('Supabase が設定されていないため、送信できません。');
   }
 
-  const { data, error } = await supabase
+  const { error } = await supabase
     .from('contact_inquiries')
-    .insert([inquiry])
-    .select()
-    .maybeSingle();
+    .insert([inquiry]);
 
   if (error) {
     throw error;
   }
-
-  return data;
 }

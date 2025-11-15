@@ -88,7 +88,10 @@ export default function ContactSection() {
     } catch (error) {
       setShowConfirm(false);
       setShowError(true);
-      console.error('Error submitting form:', error);
+      // 開発環境のみエラーの詳細をログ出力
+      if (import.meta.env.DEV) {
+        console.error('Error submitting form:', error);
+      }
     } finally {
       setIsSubmitting(false);
     }
