@@ -8,7 +8,7 @@ export default function VisionSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/images/bill.jpg)',
+          backgroundImage: 'url(/images/hong_kong_final.png)',
         }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
